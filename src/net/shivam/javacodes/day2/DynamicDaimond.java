@@ -8,6 +8,7 @@ public class DynamicDaimond {
 		Scanner input = new Scanner(System.in);
 			System.out.println("Enter the number of rows you want in the pyramid : ");
 			int rows = input.nextInt();
+			input.close();
 		for (int i = 1; i <= rows; i++) {
 			for (int j = rows; j >= 1; j--) {
 				if (j > i) {
